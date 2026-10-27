@@ -15,4 +15,6 @@ dependencies = [
     "scikit-learn",
     "jupyter",
     "jupytext",
+    "dvc",
+    "dvc-ssh"
 ]
