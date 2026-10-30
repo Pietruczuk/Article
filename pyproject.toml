@@ -1,0 +1,20 @@
+[project]
+name = "chad-simulation"
+version = "0.1"
+description = "Hybrid multiscale hysteretic model for bipolar II disorder"
+readme = "README.md"
+requires-python = ">=3.13"
+authors = [{ name = "Krzysztof Pietruczuk" }]
+
+dependencies = [
+    "pandas",
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "seaborn",
+    "scikit-learn",
+    "jupyter",
+    "jupytext",
+    "dvc",
+    "dvc-ssh"
+]
